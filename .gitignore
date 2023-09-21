@@ -1,3 +1,5 @@
+#SQLITE3
+db/e_magic_shop_v2.db
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
