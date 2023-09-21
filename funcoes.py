@@ -38,7 +38,7 @@ def valida_categoria(categoria):
         return True
 
 # USUÁRIO
-# CADASTRO
+
 def cadastra_usuario(Nome, Idade,Cpf,Endereco, Email):
     if (valida_idade(Idade) and valida_cpf(Cpf) and valida_email(Email)):
         usuario_banco = cria_usuario(Nome,Idade,Cpf,Endereco,Email)
@@ -47,8 +47,7 @@ def cadastra_usuario(Nome, Idade,Cpf,Endereco, Email):
         else:
             return False
     else:
-        return False
-    
+        return False  
 # print(cadastra_usuario("Jonas Pelegrina",22,"44444444444","Rua A","jonas@jonas.com.br"))
 def usuario_especifico(id):
     return lista_usuario_especifico(id)
@@ -73,3 +72,7 @@ def deleta_usuario_sistema(id):
     else:
         return "Não encontrado"
 # print(deleta_usuario_sistema(6))
+
+# PRODUTO
+
+# CLASSIFICAÇÃO
